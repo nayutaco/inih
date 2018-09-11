@@ -5,7 +5,7 @@ OBJ = $(SRC:.c=.o)
 OUT = libinih.a
 INCLUDES = -I..
 CCFLAGS = -g -O2
-CC = (GNU_PREFIX)g++
+CC = $(GNU_PREFIX)g++
 
 default: $(OUT)
 
